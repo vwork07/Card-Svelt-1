@@ -18,16 +18,31 @@ let tempatkStat= 50;
 let tempdefStat= 30;
 let temphpStat = 150;
 
-function attack() {
-
+function getPercentage(num, percentage) {
+  return (num * percentage) / 100;
 }
 
+function attack() {
+	let health1 = temp1hpStat;
+	let health2 = temphpStat;
+	let attackPercent = getPercentage(tempatkStat, 30);
+
+
+health1 = tempatkStat - health1;
+if (health1 === 0) {
+	temp1hpStat = "x_x UN-ALIVED!!! x_x"
+}
+else {
+temp1hpStat = Math.abs(health1);
+}
+}
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
 
 <div class="grid grid-cols-2 gap-4 mt-20 mx-5">
 <div class="m-2">
