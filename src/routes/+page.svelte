@@ -57,6 +57,7 @@ temp1hpStat = Math.abs(health1);
  defStat = {tempdefStat}
  hpStat = {temphpStat}/>
 </div>
+
 <div class="m-2">
 <CharacterCard
 characterIndex = {temp1characterIndex}
