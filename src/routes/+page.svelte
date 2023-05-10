@@ -11,7 +11,7 @@ let temp1hpStat = 150;
 
 let tempcharacterIndex = 1;
 let tempcharacterModel = "https://media.tenor.com/wrMDu29fA-YAAAAi/hasher-happy-sticker.gif";
-let tempcharacterName = "bone papichu ";
+let tempcharacterName = "Bone Papichu ";
 let tempaltCharacterName = "bone boy";
 let tempcharacterDescription = "the greatst of bone keepers";
 let tempatkStat= 50;
@@ -25,10 +25,11 @@ function getPercentage(num, percentage) {
 function attack() {
 	let health1 = temp1hpStat;
 	let health2 = temphpStat;
-	let attackPercent = getPercentage(tempatkStat, 30);
 
 
-health1 = tempatkStat - health1;
+
+health1 = (tempatkStat - getPercentage(temp1defStat, 50)) - health1;
+
 if (health1 === 0) {
 	temp1hpStat = "x_x UN-ALIVED!!! x_x"
 }
