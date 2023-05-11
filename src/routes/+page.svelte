@@ -76,6 +76,36 @@ characterIndex = {temp1characterIndex}
 <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 hover:shadow-lg hover:scale-110" on:click={attack} > Attack</button>
 </div>
 
+<div class="relative h-48 max-w-full">
+  <img src="{tempcharacterModel}" alt="Your Image" class="w-full h-auto">
+	<!-- Name-->
+  <div class="absolute  top-0 left-0 w-full h-full flex items-center z-10 pb-28">
+    <div class="  bg-white p-2 rounded-lg shadow-lg">
+      <p class="  m-2 font-bold text-2xl" > {tempcharacterName}</p>
+    </div>
+  </div>
+	<!-- Health-->
+  <div class="absolute top-0 mt-16 right-50 w-full h-full flex items-center z-10 ">
+    <div class="bg-white p-2 rounded-lg shadow-lg">
+      <p class="m-2">Health: {temphpStat}</p>
+    </div>
+  </div>
+	<!-- ATK-->
+	  <div class="absolute top-0 mt-32 left-0 w-full h-full flex items-center z-10">
+    <div class="bg-white p-2 rounded-lg shadow-lg">
+      <p class="m-2">ATK: {tempatkStat}</p>
+    </div>
+  </div>
+	<!-- DEF -->
+		  <div class="absolute top-0 mt-48 left-0 w-full h-full flex items-center z-10">
+    <div class="bg-white p-2 rounded-lg shadow-lg">
+      <p class="m-2">DEF: {tempdefStat}</p>
+    </div>
+  </div>
+
+
+	
+</div>
 
 <style>
 
