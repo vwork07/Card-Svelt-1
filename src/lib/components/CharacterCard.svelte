@@ -9,13 +9,32 @@ export let defStat;
 export let hpStat;
 </script>
 
-<div class="bg-white rounded-lg overflow-hidden shadow-md">
-  <img class="w-full h-64 object-cover" src="{characterModel}" alt="altCharacterName">
-  <div class="p-4">
-    <h3 class="text-xl font-medium mb-2">{characterName}</h3>
-    <p class="text-gray-700 text-base">{characterDescription}</p>
-      <p class="text-gray-700 text-base">HP:{hpStat}</p>
-    <p class="text-gray-700 text-base">Atk: {atkStat}</p>
-    <p class="text-gray-700 text-base">Def: {defStat}</p>
+
+
+<div class="relative rounded  bg-white shadow-lg">
+    <div class="relative w-64 h-64 p-4">
+  <img class="absolute inset-0 object-cover w-full h-full" src="{characterModel}" alt="{altCharacterName}">
+</div>
+  <div class="absolute w-48 bottom-60 right-36">
+    <div class="text-center">
+      <h1 class="text-lg font-bold text-white bg-blue-400 rounded p-2">{characterName}</h1>
+    </div>
+  </div>
+    <div class="absolute w-24 bottom-5 right-60">
+    <div class="text-center">
+      <h1 class="text-lg font-bold text-white bg-blue-400 rounded p-2">DEF: {defStat}</h1>
+    </div>
+  </div>
+      <div class="absolute w-24 bottom-20 right-60">
+    <div class="text-center">
+      <h1 class="text-lg font-bold text-white bg-blue-400 rounded p-2">ATK: {atkStat}</h1>
+    </div>
+  </div>
+      <div class="absolute w-24 bottom-36 right-60">
+    <div class="text-center bg-blue-400 rounded p-2">
+      <h1 class="text-lg font-bold text-white "><span class="text-sm"> Health </span></h1>
+      <p class="text-white text-4xl">{hpStat}</p>
+    </div>
   </div>
 </div>
+
