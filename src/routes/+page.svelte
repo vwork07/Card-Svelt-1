@@ -1,8 +1,13 @@
 <script>
 	import CharacterCard from '$lib/components/CharacterCard.svelte';
+  import jsonData from './static/data.json';
+
+  console.log(jsonData);
+
+
 let temp1characterIndex = 2;
 let temp1characterModel = "https://media.tenor.com/aIr8iKZ3UdIAAAAi/hasher-sticker.gif";
-let temp1characterName = "Bengal Destroyer";
+let temp1characterName = "Bengali Mali ";
 let temp1altCharacterName = "waka man";
 let temp1characterDescription = "man the man man";
 let temp1atkStat= 30;
@@ -73,7 +78,13 @@ characterIndex = {temp1characterIndex}
 
 </div>
 
+<h1>{jsonData.title}</h1>
 
+<ul>
+  {#each jsonData.items as item}
+    <li>{item.name}</li>
+  {/each}
+</ul>
 <style>
 
 </style>
