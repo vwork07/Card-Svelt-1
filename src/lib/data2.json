@@ -1,4 +1,25 @@
 {
-	"fruit": "apple",
-	"color": "red"
+	"cardType": "Character Cards",
+	"characterCards": [
+		{
+			"characterIndex": "1",
+			"characterModel": "https://media.tenor.com/wrMDu29fA-YAAAAi/hasher-happy-sticker.gif",
+			"characterName": "Bone Papichu ",
+			"altCharacterName": "bone boy",
+			"characterDescription": "the greatst of bone keepers",
+			"atkStat": 50,
+			"defStat": 30,
+			"hpStat": 150
+		},
+		{
+			"characterIndex": "2",
+			"characterModel": "https://media.tenor.com/wrMDu29fA-YAAAAi/hasher-happy-sticker.gif",
+			"characterName": "Bone Papichu ",
+			"altCharacterName": "bone boy",
+			"characterDescription": "the greatst of bone keepers",
+			"atkStat": 50,
+			"defStat": 30,
+			"hpStat": 150
+		}
+	]
 }
