@@ -1,6 +1,6 @@
 <script>
 	import CharacterCard from '$lib/components/CharacterCard.svelte';
-  import jsonData from './static/data.json';
+  import jsonData from '$lib/data2.json';
 
   console.log(jsonData);
 
