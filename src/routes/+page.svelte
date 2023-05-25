@@ -78,11 +78,23 @@ characterIndex = {temp1characterIndex}
 
 </div>
 
-<h1>{jsonData.title}</h1>
+
+
+<h1>{jsonData.cardType}</h1>
 
 <ul>
-  {#each jsonData.items as item}
-    <li>{item.name}</li>
+  {#each jsonData.characterCards as cards}
+    <li>
+    <CharacterCard
+characterIndex = {cards.characterIndex}
+ characterName = {cards.characterName}
+ altCharacterName = {cards.altCharacterName}
+ characterDescription = {cards.characterDescription}
+ characterModel = {cards.characterModel}
+ atkStat = {cards.atkStat}
+ defStat = {cards.defStat}
+ hpStat = {cards.hpStat}/>
+    </li>
   {/each}
 </ul>
 <style>
