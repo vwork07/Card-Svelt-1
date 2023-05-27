@@ -13,13 +13,33 @@
 		},
 		{
 			"characterIndex": "2",
-			"characterModel": "https://media.tenor.com/wrMDu29fA-YAAAAi/hasher-happy-sticker.gif",
-			"characterName": "Bone Papichu ",
-			"altCharacterName": "bone boy",
-			"characterDescription": "the greatst of bone keepers",
-			"atkStat": 50,
-			"defStat": 30,
-			"hpStat": 150
+			"characterModel": "https://media.tenor.com/R74gdS_SrRYAAAAM/quby-quby-sticker.gif",
+			"characterName": "Cuperando  ",
+			"altCharacterName": "cuppy",
+			"characterDescription": "Cuppy the Cupcake Cuperando",
+			"atkStat": 100,
+			"defStat": 100,
+			"hpStat": 100
+		},
+		{
+			"characterIndex": "3",
+			"characterModel": "https://media.tenor.com/_xr0HcLB4fAAAAAj/sticker.giff",
+			"characterName": "Pop Locken Dropen  ",
+			"altCharacterName": "cuppy",
+			"characterDescription": "Cuppy the Cupcake Cuperando",
+			"atkStat": 125,
+			"defStat": 85,
+			"hpStat": 100
+		},
+		{
+			"characterIndex": "4",
+			"characterModel": "https://media.tenor.com/SPrD4RdGvusAAAAj/hasher-sticker.gif",
+			"characterName": "Hash Sling Slash  ",
+			"altCharacterName": "cuppy",
+			"characterDescription": "Cuppy the Cupcake Cuperando",
+			"atkStat": 125,
+			"defStat": 85,
+			"hpStat": 100
 		}
 	]
 }
